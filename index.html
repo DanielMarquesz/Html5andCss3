@@ -1,29 +1,96 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head> <!-- Importação de meta dados --> 
+    <head>              <!-- Importação de meta dados --> 
         <meta charset="utf-8">
         <title>Minha Primeira Página</title>
     </head>
 
-    <body><!-- Corpo --> 
+    <body>              <!-- Corpo da página: Onde fica todo conteúdo do site --> 
+
+        <p>Logotipo</p>
+        <nav>           <!-- Nav: Área onde é feita a implantação de menus --> 
+            <ul>        <!-- Lista não ordenada -->
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#compras">Compras</a>
+                </li
+
+                <li>
+                    <a href="#cadastro">Cadastro</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
         <p>Minha Primeira Página</p>
 
-        <header> <!--- Títulos -->
+        <header>        <!----------------------------------- Títulos ---------------------------->
 
             <h1>Minha Página HTML5</h1>
             
-            <p>Lorem Ipsum is simply dummy text of the printing and <p><h2>typesetting</h2></p> industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-                an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, 
-                remaining essentially unchanged. It was popularised in the 1960s with the release of 
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
         </header>
+                        <!--- ----------------------------- Sessões do Site ------------------------------------------>
+        <section id="compras">
+            <h2>Compras</h2>
+            <p>
+                Lista de produtos para compra.
+                Lista de produtos para compra.Lista de produtos para compra.Lista de produtos para compra.
+                Lista de produtos para compra.
+            </p>
+
+            <div>       <!--------------------------------------- Utilizado para dividir o corpo em partes ---------------------->
+                <img src="img/woman.jpg" width="200px">
+            </div>
+
+            <div>       <!-------------------------------------- Utilizado para dividir o corpo em partes -->
+                <img src="img/lamps.jpg" width="200px">
+            </div>
+
+
+        </section>
+
+        <section id="cadastro">
+            <h2>Cadastro</h2>
+            <p>
+
+                Ficha para cadastro de clientes.Ficha para cadastro de clientes.
+                Ficha para cadastro de clientes.Ficha para cadastro de clientes.
+                Ficha para cadastro de clientes.Ficha para cadastro de clientes.
+            </p>
+
+            <div>       <!------------------------------ Utilizado para dividir o corpo em partes --------------------------------->
+                <img src="img/china.jpg" width="200px">
+            </div>
+
+            <div>       <!------------------------------ Utilizado para dividir o corpo em partes ---------------------------------->
+                <img src="img/note.jpg" width="200px">
+            </div>
+            
+        </section>
+
+        <section id="contato"> <!---------------------------- Métodos de Contato ------------------------------------------->
+            <h2>Contato</h2>
+            <p>
+                Aqui ficaria uma área para costura ou o espeço onde deão alocadas as fichas de contato.
+
+                <div>
+                    <img src="img/fone1.jpg" width="200px">
+                </div>
+
+                <div>
+                    <img src="img/fone2.jpg" width="200px">
+                </div>
+            </p>
+        </section>
     
-        <footer><!-- rodapé --> 
+        <footer>        <!------------------------------------------------ Rodapé do site -------------------------------------------> 
             <p>Desenvoldido por Lais Alves</p>
         </footer>
 
