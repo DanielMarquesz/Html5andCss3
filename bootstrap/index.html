@@ -7,39 +7,78 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>                                                      <!-- Corpo -->
-        <header>                                                <!-- Cabeçalho -->
-            <nav class="navbar navbar-expand-lg">               <!-- Menu de navegação -->
-                <a class="navbar-brand btn-dark btn" href="#">  <!-- Logotipo -->
-                    <img src="img/apple-computer.jpg" width="100">
+    <body>                                                      <!---------- Corpo --------------------------------->
+        <header>                                                <!---------- Cabeçalho ----------------------------->
+            <nav class="navbar navbar-expand-lg">               <!---------- Menu de navegação --------------------->
+                <a class="navbar-brand btn-dark btn" href="#">  <!---------- Logotipo ------------------------------>
+                    <img src="img/apple-computer.jpg" width="50">
                 </a>
 
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">Cadastro</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">Quem Somos</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#">Contato</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#cadastro">Cadastro</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </nav>
 
         </header>
 
-        <section>
-            <h2>
-                Conceito de Vida
-            </h2>
-            
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type
-                specimen book. 
-            </p>
+    
+        <section id="#quemsomos"> <!-------------------- Quem Somos -------------------->
+            <div class="container-fluid quem-somos text-center pad">
+                <h2>
+                    Quem Somos
+                </h2>      
+                <img class="rounded-circle" src="img/black-pen.jpg" width="400px">  
+                
+                <h3>Entregamos o que há de melhor para nossos clientes</h3>
+            </div>     
         </section>
+                                <!------------------------Sessão Carrossel --------------------------------->
+        <section id="parceiros">
+            <div class="container-fluid text-center pad">
+                <h3 style="padding-bottom: 50px;">
+                    Parceiros
+                </h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h3>Coluna 1</h3>
+                            <img class="rounded-circle" src="img/internet-screen.jpg" width="300px">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.                  
+                            </p>
+                        </div>
 
+                        <div class="col-lg-4">
+                            <h3>Coluna 2</h3>
+                            <img class="rounded-circle" src="img/internet-screen.jpg" width="300px">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
 
+                        <div class="col-lg-4" >
+                            <h3>Coluna 3</h3>
+                            <img class="rounded-circle" src="img/internet-screen.jpg" width="300px">
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
 
     </body>
